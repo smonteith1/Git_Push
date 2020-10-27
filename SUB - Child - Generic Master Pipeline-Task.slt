@@ -1,0 +1,21 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "SUB - Child - Generic Master Pipeline-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "uNjklF2AWiub3otCUGzC3q5mJsKEgLO5",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "SUB - Child - Generic Master Pipeline",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

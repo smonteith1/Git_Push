@@ -1,0 +1,329 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "afae7d75-6252-41d4-baaa-cf13439b6299_input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "884e69c2-77ce-47f9-889b-0ee59eba3f2f_output0"
+        },
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "7b771c9b-2239-42e2-a739-2b13356ee4d3_input102",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rvsrinivasrao@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Mapper (Data) - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000001_eb6f0b2b-3cd9-4d67-a4a6-1b85dc94fef4_output0": {
+                "label": {
+                    "value": "Child - AddS02 - 04 - Add Subscriber - Mapper (Data) - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$user_details.username"
+                                        },
+                                        "targetPath": {
+                                            "value": "$additional_details.username"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$user_details.email_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$additional_details.email_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$request_details.phone_number"
+                                        },
+                                        "targetPath": {
+                                            "value": "$additional_details.phone_number"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "brennan.oreilly@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "Child - AddS02 - 04 - Add Subscriber"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "Child - AddS02 - 04 - Add Subscriber"
+                            },
+                            "ref_id": {
+                                "value": "595dfc2cbc9ffa57899e086d"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "afae7d75-6252-41d4-baaa-cf13439b6299_input0": {
+                        "label": {
+                            "value": "Check - Device Name is provided? - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 95,
+                "output": {
+                    "eb6f0b2b-3cd9-4d67-a4a6-1b85dc94fef4_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "Child - GetSub01 - 01 - GetSubscriber"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "Child - GetSub01 - 01 - GetSubscriber"
+                            },
+                            "ref_id": {
+                                "value": "595dfc2ca9206667e01f7806"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "7b771c9b-2239-42e2-a739-2b13356ee4d3_input102": {
+                        "label": {
+                            "value": "Get Subscriber PKID - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 44,
+                "output": {
+                    "884e69c2-77ce-47f9-889b-0ee59eba3f2f_output0": {
+                        "label": {
+                            "value": "Mapper (Data)1 - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

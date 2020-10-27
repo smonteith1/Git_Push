@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Move Phone (MvPhn02)-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "BHmTaIzpgW7nb72C7lQRWTxMWJ73fv8Y",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "vbvellala@snaplogic.com",
+            "states": [
+                "Started",
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": "Master - Move Phone (MvPhn02)",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

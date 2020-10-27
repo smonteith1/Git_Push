@@ -1,0 +1,68 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Internal - LogFilesCleanup Job-Task",
+    "note": "Delete the log files older then X days.",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": false,
+        "job_type": "regular",
+        "llfeed_token": "SJbQqmnpluIEbCmDkRX8Ue5Yj6ugjJ6R",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_path": "Internal - LogFilesCleanup Job",
+        "snaplex_path": "cloud-dev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 60,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2016-04-19",
+        "start_time": "05:00:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 60,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2016-04-19",
+        "start_time": "05:00:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

@@ -1,0 +1,71 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Payload Request Report",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": false,
+        "job_type": "regular",
+        "llfeed_token": "TJIdfoSmBQuvqL2hFfQODIgBnejJnTj7",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_parameters": {
+            "MinutesPassed": "144000"
+        },
+        "pipeline_path": "Internal - Request Served Report",
+        "snaplex_path": "cloud-dev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 60,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2017-04-11",
+        "start_time": "22:30:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 60,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2017-04-11",
+        "start_time": "22:30:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

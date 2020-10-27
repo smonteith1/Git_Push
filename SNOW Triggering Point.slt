@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "SNOW Triggering Point",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "PsLwxJOcGMIq1mYMLtRgDrboJCZ17ovn",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "ms-verizon@snaplogic.com",
+            "states": [
+                "Started",
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": "SUB - Generic Master Pipeline",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

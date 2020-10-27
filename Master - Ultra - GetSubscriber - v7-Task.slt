@@ -1,0 +1,24 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Ultra - GetSubscriber - v7-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "kDv5DZpJgwquvat81VhdhI9nlyMKCw1I",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "NotifyTimeLimit": "15000"
+        },
+        "pipeline_path": "Master - Ultra - GetSubscriber - v7",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

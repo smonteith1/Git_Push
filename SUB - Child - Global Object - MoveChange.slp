@@ -1,0 +1,1185 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "46dd950e-5b72-45c0-a0fd-41d7c1e2f83e_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output101"
+        },
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "ed2291d3-9c5b-464e-b9af-ad27d8702b08_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output1"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "2682ba63-c521-44c2-b7aa-09ba5e553576_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "7c4fc1d0-438d-4b3d-8cbe-f944d87a2757_output0"
+        },
+        "link105": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input103",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "6f2ff06c-970f-4042-9e9f-025e023b2845_output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "c06790e0-c3c3-41df-80e5-1a220855924a_output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "423d8e91-53c6-4cc4-b419-03e69a5cc4d5_output0"
+        },
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output107"
+        },
+        "link109": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "3478346a-1a11-4e75-ba66-32894768467d_output0"
+        },
+        "link110": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "18ff1214-a39e-4c17-87eb-ff27afcfa748_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output104"
+        },
+        "link111": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "2d6fbc84-174e-4146-b74d-9eb3fb5d0e35_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output105"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "b7ec9854-ed02-45cd-b9b7-15fb604b11e5_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output103"
+        },
+        "link113": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input104",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "fa2342cf-0044-44f1-ae34-ea514ab3090d_output0"
+        },
+        "link114": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input105",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "dccb5c74-2e48-460b-b5cd-745311698426_output0"
+        },
+        "link115": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "4f5aaee3-4945-4d8d-8ee0-2574e3447ccc_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output102"
+        },
+        "link116": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input107",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link117": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input106",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "09425900-3ecb-4151-ad16-98c95646fe67_output0"
+        },
+        "link118": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "cc10bcb2-80e2-456d-93f3-8ea5838628ed_input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output106"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "vbvellala@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Copy - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000002_output0": {
+                "label": {
+                    "value": "Union - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "output101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "output102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "output103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "output104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "output105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "output106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    },
+                    "output107": {
+                        "dx_int": 0,
+                        "dy_int": 8,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 9,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "input102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "input103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "input104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "input105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "input106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    },
+                    "input107": {
+                        "dx_int": 0,
+                        "dy_int": 8,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 3,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 8,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output101": {
+                        "label": {
+                            "value": "output2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output102": {
+                        "label": {
+                            "value": "output3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output103": {
+                        "label": {
+                            "value": "output4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output104": {
+                        "label": {
+                            "value": "output5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output105": {
+                        "label": {
+                            "value": "output6"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output106": {
+                        "label": {
+                            "value": "output7"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output107": {
+                        "label": {
+                            "value": "output8"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 107
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Original Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$"
+                                        },
+                                        "targetPath": {
+                                            "value": "$orig_copy"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input102": {
+                        "label": {
+                            "value": "input3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input103": {
+                        "label": {
+                            "value": "input4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input104": {
+                        "label": {
+                            "value": "input5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input105": {
+                        "label": {
+                            "value": "input6"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input106": {
+                        "label": {
+                            "value": "input7"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input107": {
+                        "label": {
+                            "value": "input8"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 107
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - (Child - GO01 - Entitlement Change"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - (Child - GO01 - Entitlement Change"
+                            },
+                            "ref_id": {
+                                "value": "595dfc32bf2a216f26226ed9"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "2682ba63-c521-44c2-b7aa-09ba5e553576_input0": {
+                        "label": {
+                            "value": "Filter - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 5,
+                "output": {
+                    "c06790e0-c3c3-41df-80e5-1a220855924a_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Add Device"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Add Device"
+                            },
+                            "ref_id": {
+                                "value": "595dfc329dd40f69939f2760"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "ed2291d3-9c5b-464e-b9af-ad27d8702b08_input0": {
+                        "label": {
+                            "value": "Script - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 37,
+                "output": {
+                    "3478346a-1a11-4e75-ba66-32894768467d_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Delete Device"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Delete Device"
+                            },
+                            "ref_id": {
+                                "value": "595dfc32f952e96a39357962"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "46dd950e-5b72-45c0-a0fd-41d7c1e2f83e_input0": {
+                        "label": {
+                            "value": "Script - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 12,
+                "output": {
+                    "423d8e91-53c6-4cc4-b419-03e69a5cc4d5_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Replace or Update Phone"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Replace or Update Phone"
+                            },
+                            "ref_id": {
+                                "value": "595dfc3259ee136333b0f7cc"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "18ff1214-a39e-4c17-87eb-ff27afcfa748_input0": {
+                        "label": {
+                            "value": "Script - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 10,
+                "output": {
+                    "fa2342cf-0044-44f1-ae34-ea514ab3090d_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Update CSS"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Update CSS"
+                            },
+                            "ref_id": {
+                                "value": "595dfc3217f60c4b20c1c843"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "b7ec9854-ed02-45cd-b9b7-15fb604b11e5_input0": {
+                        "label": {
+                            "value": "Filter - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 7,
+                "output": {
+                    "6f2ff06c-970f-4042-9e9f-025e023b2845_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Update Line"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Update Line"
+                            },
+                            "ref_id": {
+                                "value": "595dfc3244ecb45f25c12e82"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "4f5aaee3-4945-4d8d-8ee0-2574e3447ccc_input0": {
+                        "label": {
+                            "value": "Script - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 61,
+                "output": {
+                    "7c4fc1d0-438d-4b3d-8cbe-f944d87a2757_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO01 - Voice Mail"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO01 - Voice Mail"
+                            },
+                            "ref_id": {
+                                "value": "595dfc32a9206667df80cd95"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "2d6fbc84-174e-4146-b74d-9eb3fb5d0e35_input0": {
+                        "label": {
+                            "value": "Filter - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 4,
+                "output": {
+                    "dccb5c74-2e48-460b-b5cd-745311698426_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - GO08 - RDP Update"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - GO08 - RDP Update"
+                            },
+                            "ref_id": {
+                                "value": "595dfc32e8ac6e609bf9678b"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "cc10bcb2-80e2-456d-93f3-8ea5838628ed_input0": {
+                        "label": {
+                            "value": "Filter - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 5,
+                "output": {
+                    "09425900-3ecb-4151-ad16-98c95646fe67_output0": {
+                        "label": {
+                            "value": "Mapper (Data) - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

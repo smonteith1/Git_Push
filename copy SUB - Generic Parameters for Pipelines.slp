@@ -1,0 +1,543 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {},
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rvsrinivasrao@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Mapper (Data) - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "Mapper (Data) - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "protocol"
+                        },
+                        "value": {
+                            "value": "https"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "domain"
+                        },
+                        "value": {
+                            "value": "172.16.100.173"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "format"
+                        },
+                        "value": {
+                            "value": "json"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "nowait"
+                        },
+                        "value": {
+                            "value": "false"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "Token"
+                        },
+                        "value": {
+                            "value": "Basic c25hcGxvZ2ljLTJAdnplZnQuY29tOlBAc3N3MHJkMQ=="
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "initial_path"
+                        },
+                        "value": {
+                            "value": "api/v0"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "success_msg_folder"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/Success/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "error_msg_folder"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/Error/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "SL_Token"
+                        },
+                        "value": {
+                            "value": "Basic c2xzdmMrdmVyaXpvbnByb2RAc25hcGxvZ2ljLmNvbTpLYW04YzlPZWFqUVBJWXY="
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "SL_Trigger_URI"
+                        },
+                        "value": {
+                            "value": "https://elastic.snaplogic.com:443/api/1/rest/slsched/feed/VerizonQA/projects/Production/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "SVCNOW_folder"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/ServiceNow/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "REQCopy_folder"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/OriginalRequest/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "Cust_Hierarchy"
+                        },
+                        "value": {
+                            "value": "sys.hcs.Verizon.harvuni-2"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "EmailRecieverList"
+                        },
+                        "value": {
+                            "value": "vbvellala@snaplogic.com"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "FromEmailID"
+                        },
+                        "value": {
+                            "value": "snaps.snaplogic@gmail.com"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "BatchJob_FileReports"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/Batch_FileReports/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "BatchJob_Archive_FileReports"
+                        },
+                        "value": {
+                            "value": "sldb:///VerizonQA/projects/Batch_Archive_FileReports/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "PurgeDtOldFiles"
+                        },
+                        "value": {
+                            "value": "40"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "csvFilePath"
+                        },
+                        "value": {
+                            "value": "sftp://filch.telecom.harvard.edu:22/"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "key": {
+                            "value": "phonePrependString"
+                        },
+                        "value": {
+                            "value": "\\+"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_protocol"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.protocol"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_domain"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.domain"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_format"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.format"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_Token"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.Token"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_nowait"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.nowait"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_initial_path"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.initial_path"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_success_msg_folder"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.success_msg_folder"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_error_msg_folder"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.error_msg_folder"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_SL_Token"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.sl_token"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_SL_Trigger_URI"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.sl_trigger_uri"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_SVCNOW_folder"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.svcnow_folder"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_REQCopy_folder"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.reqcopy_folder"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_Cust_Hierarchy"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.Cust_Hierarchy"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_EmailRecieverList"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.EmailRecieverList"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_FromEmailID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.FromEmailID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_BatchJob_FileReports"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.BatchJob_FileReports"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_BatchJob_Archive_FileReports"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.BatchJob_Archive_FileReports"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_PurgeDtOldFiles"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.PurgeDtOldFiles"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_csvFilePath"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.csvFilePath"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_phonePrependString"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Generic_Params.phonePrependString"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}
