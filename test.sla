@@ -1,0 +1,33 @@
+{
+    "class_id": "com-snaplogic-snaps-birst-birstbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogic"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "test"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "endpoint": {
+                "value": "test"
+            },
+            "password": {
+                "fp": "0487e5d03af2d30e02972f3353ab20fe94c8d030f780117974962cdd82e202c5",
+                "key": "account-cloud-managed-52e99318640a9a03d8681d0d-2015-05-02T16:09:59-767256",
+                "sym_iv": "iLTYwNSIKSlO7Co9+IeLaA==",
+                "sym_key": "T8CwV6eB9GI5fMyASrVmN1E17pY2lDpxrrpeg3bBnWKdJuoBKwDF1cjEEb9fm3CHH9W7kDcSDo/2ARYwFfFWv9dlT8tCwQ+cNkiVpV+/udMigqjUtSm8b6czBBeI87CoiVDJ8RHrf0p95to9QhYvXFHOj8xkfljlSysYsU99cTAmSmHhUGDs4x95cxmw+JRSACHEaKgC0+HhT+B1RBNzP7HYeoeUFEsDDlxmPlXriFogkNj9KTGLej8hiGglITYMuyL65EqEy9HWwaWxXjpSUh+XmXzhNmQHrNKXQZgNDZILoJrbyWZrl0N/fnvE5ezwIM1Wnj9sw+MI0aHSjkwUBg==",
+                "value": "CYy4BlBtIH4WOeX7onDFoA=="
+            },
+            "username": {
+                "value": "test"
+            }
+        },
+        "view_serial": 100
+    }
+}
