@@ -1,0 +1,26 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Delete Subscriber (DelSub02)-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "z9xQvfhkMKYEkzReSz9e3TpzwawIn2Hx",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "vbvellala@snaplogic.com",
+            "states": [
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": "Master - Delete Subscriber (DelSub02)",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

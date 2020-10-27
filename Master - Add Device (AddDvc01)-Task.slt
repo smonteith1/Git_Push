@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Add Device (AddDvc01)-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "7hJcqeLFjYBUR6zjT40z8YM5X7OLBAAD",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "rvsrinivasrao@snaplogic.com,vbvellala@snaplogic.com",
+            "states": [
+                "Started",
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": null,
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

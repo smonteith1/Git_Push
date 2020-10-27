@@ -1,0 +1,28 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Ultra - GetSubscriber - v6-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "8QJVMAqdPiKynqWlNZNyO1GbwJtzFyXn",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "ms-verizon@snaplogic.com",
+            "states": [
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_parameters": {
+            "NotifyTimeLimit": "15000"
+        },
+        "pipeline_path": "Master - Ultra - GetSubscriber - v6",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

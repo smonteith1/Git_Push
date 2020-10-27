@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Ultra - ReserveUnreserve-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "GShik8Sblcdpi4eenQbIvm6XffaRInsX",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "vbvellala@snaplogic.com",
+            "states": [
+                "Started",
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": "Master - Ultra - ReserveUnreserve",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

@@ -1,0 +1,109 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {},
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "vbvellala@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "JSON Generator - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "[{\"original\":{\"original\":{\"servicenow_details\":{\"snow_catalog_item_request_id\":\"UniqueID\",\"snow_user_id\":\"ORD1234\",\"snow_user\":\"REQ4567\"},\"request_type\":{\"action\":\"Add\",\"object\":\"Subscriber\"},\"user_details\":{\"username\":\"SLTest6034\",\"firstname\":\"SLTest\",\"lastname\":\"6033\",\"sn\":\"Harvard\",\"email_id\":\"SLTest6034@test.com\",\"building\":null,\"department\":null},\"request_details\":{\"LDAP_User\":false,\"qagroup_name\":\"8851\",\"css\":\"Cu1Si1-InternalOnly-CSS\",\"device_type\":\"8851\",\"voice_mail\":true,\"hierarchy\":\"sys.hcs.p1.c1.s1\",\"mobility\":true,\"entitlement_profile\":\"[\\\"Power User\\\", \\\"hcs.p1\\\"]\",\"role\":\"s1SelfService\"},\"snow_orig_req\":{\"data\":{\"qagroup_name\":\"8851\",\"new_values\":{\"hierarchy\":\"s1\",\"user_details\":{\"ldap_user\":false,\"email_id\":\"SLTest6034@test.com\",\"user_name\":\"SLTest6034\",\"first_name\":\"SLTest\",\"middle_name\":\"Harvard\",\"last_name\":\"6033\",\"ldap_phone_number\":\"16170011970\",\"entitlement_profile\":\"Power User\",\"role\":\"s1SelfService\"},\"primary_line\":{\"phone_number\":\"16170011971\",\"css\":\"Cu1Si1-InternalOnly-CSS\",\"cfw_to_voice_mail\":true},\"voice_mail\":true,\"devices\":[{\"index\":1,\"device_type\":\"8851\",\"device_pool\":\"Cu1Si1-Deviceool\",\"phone_name\":\"SEPAABBCCDD6035\",\"button_template\":\"Standard 8851 SIP\",\"lines\":[{\"index\":1,\"line\":\"16170011972\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Flash Only\",\"mwlPolicy\":\"Use System Policy\",\"audibleMwi\":\"Default\"}]},{\"index\":2,\"device_type\":\"8851\",\"device_pool\":\"Cu1Si1-DevicePool\",\"phone_name\":\"SEPAABBCCDC6033\",\"button_template\":\"Standard 8851 SIP\",\"lines\":[{\"index\":3,\"line\":\"16170011919\",\"ringSetting\":\"Beep Only\",\"consecutiveRingSetting\":\"Ring\",\"mwlPolicy\":\"Use System Policy\",\"audibleMwi\":\"Default\"},{\"index\":2,\"line\":\"16170011920\",\"ringSetting\":\"Beep Only\",\"consecutiveRingSetting\":\"Use System Default\",\"mwlPolicy\":\"Use System Policy\",\"audibleMwi\":\"Default\"},{\"index\":1,\"line\":\"16170011871\",\"ringSetting\":\"Beep Only\",\"consecutiveRingSetting\":\"Use System Default\",\"mwlPolicy\":\"Use System Policy\",\"audibleMwi\":\"Default\"}]}]},\"previous_values\":{\"hierarchy\":\"\",\"user_details\":{\"ldap_user\":\"\",\"email_id\":\"\",\"user_name\":\"\",\"first_name\":\"\",\"middle_name\":\"\",\"last_name\":\"\",\"ldap_phone_number\":\"\",\"entitlement_profile\":\"\",\"role\":\"\"},\"primary_line\":{\"phone_number\":\"\",\"css\":\"\",\"cfw_to_voice_mail\":\"\"},\"voice_mail\":null,\"devices\":[{\"index\":null,\"device_type\":\"\",\"device_pool\":\"\",\"phone_name\":\"\",\"button_template\":\"\",\"lines\":[{\"index\":null,\"line\":\"\",\"ringSetting\":\"\",\"consecutiveRingSetting\":\"\",\"mwlPolicy\":\"\",\"audibleMwi\":\"\"}]}]}},\"meta\":{\"external_id\":\"ORD1234\",\"external_ref\":\"REQ4567\",\"snow_catalog_item_request_id\":\"UniqueID\",\"action\":\"Install\"}},\"additional_details\":{\"primary_line\":\"\\\\+16170011970\",\"username\":\"SLTest6034\",\"email_id\":\"SLTest6034@test.com\",\"phone_number\":null,\"subscriber_pkid\":null,\"user_pkid\":\"56b3206acb3e586082929c58\",\"role\":\"s1SelfService\",\"language\":\"en-us\",\"entitlement_profile\":\"[\\\"Power User\\\", \\\"hcs.p1\\\"]\",\"site_defaults_doc\":\"55d63af8cb3e58ceabfcb673\",\"partition_name\":\"Cu1-DirNum-PT\",\"voicemail_pkid\":null,\"alternate_ext_index\":null,\"PartitionObjectId\":null,\"lines\":null,\"qagroup_name\":\"8851\",\"ini_pkid\":null,\"is_in_use\":null,\"phone_template\":\"Harvard 8851\",\"phone_type\":\"8851\",\"mobility\":true,\"addsub\":{\"success\":[{\"phone_pkid\":[null]}],\"error\":[\"Error: [REST API service endpoint returned error result: status code = 400, reason phrase = BAD REQUEST]: Error_Entity: [{\\\"code\\\": 7006, \\\"error_meta\\\": {}, \\\"message\\\": \\\"Error, Duplicate Resource Found. [Helper] Model already exists; (Could not insert new row - duplicate value in a UNIQUE INDEX column (Unique Index:).)\\\", \\\"http_code\\\": 400, \\\"transaction\\\": \\\"0ada8a5e-7052-4854-b18b-649f9678f0e0\\\"}]: StatusCode: [400]\"],\"totrectoprocess\":0,\"totrecsuccessful\":1,\"totrecfailed\":1},\"Status\":\"Failure\"},\"Generic_Params\":{\"protocol\":\"https\",\"domain\":\"10.5.30.22\",\"format\":\"json\",\"Token\":\"Basic c25hcGxvZ2ljQHAxLmNvbTpwYXNzd29yZA==\",\"nowait\":\"false\",\"initial_path\":\"api/v0\",\"success_msg_folder\":\"sldb:///VerizonDev/projects/Success/\",\"error_msg_folder\":\"sldb:///VerizonDev/projects/Error/\",\"sl_token\":\"Basic dmJ2ZWxsYWxhQHNuYXBsb2dpYy5jb206VkRXQXZpNjJXaURETVlu\",\"sl_trigger_uri\":\"https://elastic.snaplogic.com:443/api/1/rest/slsched/feed/VerizonDev/projects/Production/\",\"svcnow_folder\":\"sldb:///VerizonDev/projects/ServiceNow/\",\"reqcopy_folder\":\"sldb:///VerizonDev/projects/OriginalRequest/\",\"Cust_Hierarchy\":\"sys.hcs.p1.c1\",\"EmailRecieverList\":\"vbvellala@snaplogic.com\",\"FromEmailID\":\"snaps.snaplogic@gmail.com\",\"BatchJob_FileReports\":\"sldb:///VerizonDev/projects/Batch_FileReports/\",\"BatchJob_Archive_FileReports\":\"sldb:///VerizonDev/projects/Batch_Archive_FileReports/\",\"PurgeDtOldFiles\":\"40\",\"csvFilePath\":\"sftp://voss-ftp1.fullsail.snaplogic.com:22/home/verizon/HarvardBatchFiles/\",\"phonePrependString\":\"\\\\+\"},\"StatsCapture\":{\"FirstTime\":true},\"specific_details\":{\"site_default_data\":{\"defaultuserrole\":\"s1SelfService\",\"default_cucm_phone_protocol\":\"SIP\",\"default_cucm_phone_commondeviceconfig\":\"Standard Common Phone Profile\",\"default_cucm_phone_softkey\":\"Standard User\",\"default_cucm_dp_protocol\":\"SIP\",\"default_cucm_sip_profile\":\"Standard SIP Profile\",\"default_cucm_rdp_dndoption\":\"Call Reject\",\"default_cucm_dp_template\":\"Standard 9971 SIP\",\"pkid\":\"55d63af9cb3e58ceabfcb676\",\"defaultLOC\":\"Cu1Si1-Location\",\"defaultlinept\":\"Cu1-DirNum-PT\",\"defaultmmpt\":\"Cu1Si1-Feature-PT\",\"defaultDP\":\"Cu1Si1-DevicePool\",\"default_phone_subscriber_css\":\"Cu1Si1-InternalOnly-CSS\",\"default_cucm_user_presencegroup\":\"Standard Presence group\",\"default_cucm_dp_product\":\"Cisco 9971\",\"defaultcuchtmlnotificationtemplate\":\"Default_Dynamic_Icons\",\"default_cucm_phone_sipprofile\":\"Standard SIP Profile\",\"default_cucm_phone_product\":\"Cisco 9971\",\"defaultcpupt\":\"Cu1Si1-Feature-PT\",\"name\":\"s1\",\"defaultcucmgroup\":\"Default\",\"defaultcppt\":\"Cu1Si1-Feature-PT\",\"defaultlinecss\":\"Cu1Si1-InternalOnly-CSS\",\"defaultdevicecss\":\"Cu1Si1-USADP-Emer-CSS\",\"default_cucm_phone_presencegroup\":\"Standard Presence group\",\"default_cucm_line_presencegroup\":\"Standard Presence group\",\"defaulthppt\":\"Cu1Si1-Feature-PT\",\"default_cucm_phone_securityprofile\":\"Cisco 9971 - Standard SIP Non-Secure Profile\"}},\"isRollbackRequired\":true,\"RequestStatus\":\"Failure\"}},\"RequestStatus\":\"Failure\",\"error\":[\"Error: [REST API service endpoint returned error result: status code = 400, reason phrase = BAD REQUEST]: Error_Entity: [{\\\"code\\\": 7006, \\\"error_meta\\\": {}, \\\"message\\\": \\\"Error, Duplicate Resource Found. [Helper] Model already exists; (Could not insert new row - duplicate value in a UNIQUE INDEX column (Unique Index:).)\\\", \\\"http_code\\\": 400, \\\"transaction\\\": \\\"0ada8a5e-7052-4854-b18b-649f9678f0e0\\\"}]: StatusCode: [400]\"],\"skipfetchingsubinfo\":true}]"
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master - Device Change (DvcChange02)-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": false,
+        "job_type": "regular",
+        "llfeed_token": "ycFBBunIudxsxRohyBb1WySDBdsJTlH4",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "rvsrinivasrao@snaplogic.com,vbvellala@snaplogic.com",
+            "states": [
+                "Started",
+                "Completed",
+                "Failed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": null,
+        "snaplex_path": null
+    },
+    "schedule": {
+        "start_date": "2015-11-09",
+        "start_time": "15:28:06",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2015-11-09",
+        "start_time": "15:28:06",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

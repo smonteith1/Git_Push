@@ -1,0 +1,1659 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output1"
+        },
+        "link105": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link110": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output104"
+        },
+        "link111": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input104",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output101"
+        },
+        "link113": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link131": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link132": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link199": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link202": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input103",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link203": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "51f96076-9ccc-4b80-bd14-12a66253b3f3_output0"
+        },
+        "link204": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "51f96076-9ccc-4b80-bd14-12a66253b3f3_output0"
+        },
+        "link205": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "8d1f39bc-7a76-4959-a1ae-029762d8b70b_input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output102"
+        },
+        "link206": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "8d1f39bc-7a76-4959-a1ae-029762d8b70b_input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output103"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "rvsrinivasrao@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000006_input0": {
+                "label": {
+                    "value": "Router - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000007_output0": {
+                "label": {
+                    "value": "Union - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 3,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "output101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "output102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "output103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "output104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 1,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "input102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "input103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "input104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Modify"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Subscriber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "ModifyChange"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Subscriber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.snow_catalog_item_request_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_catalog_item_request_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_ref"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Add"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Subscriber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.user_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.username"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.first_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.firstname"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.last_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.lastname"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.last_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.sn"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.email_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.email_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "null"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.building"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "null"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.department"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.ldap_user"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.LDAP_User"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.qagroup_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.qagroup_name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.primary_line.css"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.css"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$data.new_values.devices[*].device_type\")[0]"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.device_type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.voice_mail"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.voice_mail"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.hierarchy"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.hierarchy"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.mobility"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.entitlement_profile"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.entitlement_profile"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.meta"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.role"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.role"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'\\\\\\+'+$data.new_values.primary_line.phone_number"
+                                        },
+                                        "targetPath": {
+                                            "value": "$additional_details.primary_line"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.snow_catalog_item_request_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_catalog_item_request_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_ref"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Delete"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Subscriber"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.user_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.username"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.email_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.email_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.LineDeletionAtUCM"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.hierarchy"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.hierarchy"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$data.new_values.devices[*].button_template\")[0]"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.phone_template"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.meta"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.primary_line.phone_number"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.primary_phone_number"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.snow_catalog_item_request_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_catalog_item_request_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_ref"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Move"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Phone"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.user_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.username"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.email_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.email_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.hierarchy"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.hierarchy"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.meta"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.devices"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.devices"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.snow_catalog_item_request_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_catalog_item_request_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta.external_ref"
+                                        },
+                                        "targetPath": {
+                                            "value": "$servicenow_details.snow_user"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "UnknownAction"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.action"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Object"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_type.object"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.user_name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.username"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.user_details.email_id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$user_details.email_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.LineDeletionAtUCM"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.hierarchy"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.hierarchy"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$data.new_values.devices[*].button_template\")[0]"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.phone_template"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$meta"
+                                        },
+                                        "targetPath": {
+                                            "value": "$snow_orig_req.meta"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$data.new_values.primary_line.phone_number"
+                                        },
+                                        "targetPath": {
+                                            "value": "$request_details.primary_phone_number"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Router"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "Install"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Deinstall"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output101": {
+                        "label": {
+                            "value": "Move"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output102": {
+                        "label": {
+                            "value": "Change"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output103": {
+                        "label": {
+                            "value": "Move/Change"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output104": {
+                        "label": {
+                            "value": "Error"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "firstMatch": {
+                        "value": true
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$meta.action == \"Install\""
+                                },
+                                "outputViewName": {
+                                    "value": "Install"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$meta.action == \"Deinstall\""
+                                },
+                                "outputViewName": {
+                                    "value": "Deinstall"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$meta.action == \"Move\""
+                                },
+                                "outputViewName": {
+                                    "value": "Move"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$meta.action == \"Change\""
+                                },
+                                "outputViewName": {
+                                    "value": "Change"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$meta.action == \"Move/Change\""
+                                },
+                                "outputViewName": {
+                                    "value": "Move/Change"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "true == true"
+                                },
+                                "outputViewName": {
+                                    "value": "Error"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 104
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input102": {
+                        "label": {
+                            "value": "input3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input103": {
+                        "label": {
+                            "value": "input4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input104": {
+                        "label": {
+                            "value": "input5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 104
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - Global Object - MoveChange"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - Global Object - MoveChange"
+                            },
+                            "ref_id": {
+                                "value": "595dfc33e8ac6e609922b5ee"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "8d1f39bc-7a76-4959-a1ae-029762d8b70b_input0": {
+                        "label": {
+                            "value": "Copy - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 2,
+                "output": {
+                    "51f96076-9ccc-4b80-bd14-12a66253b3f3_output0": {
+                        "label": {
+                            "value": "Union - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "SUB - Child - Global Object - MoveChange"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "SUB - Child - Global Object - MoveChange"
+                            },
+                            "ref_id": {
+                                "value": "595dfc33e8ac6e609922b5ee"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "8d1f39bc-7a76-4959-a1ae-029762d8b70b_input0": {
+                        "label": {
+                            "value": "Copy - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 2,
+                "output": {
+                    "51f96076-9ccc-4b80-bd14-12a66253b3f3_output0": {
+                        "label": {
+                            "value": "Union - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

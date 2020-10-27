@@ -1,0 +1,562 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "b8841242-ccbf-44fb-b6f6-86728cb2e950_input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "40f4df4b-06eb-4807-b090-7f5477e5d06a_input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "860e0b42-d81c-4c9b-8b58-9606b0021eb3_output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "vbvellala@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000003_input0": {
+                "label": {
+                    "value": "Original Copy - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "JSON Generator - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000001_output0": {
+                "label": {
+                    "value": "JSON Generator - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_129a9048-288c-49cd-b0bc-13f35ade0021_output0": {
+                "label": {
+                    "value": "Child - ModifySub01 - 00 - Modify Subscriber - Script1 - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_e698b809-0d30-4956-9b5c-9f167241c1f3_output0": {
+                "label": {
+                    "value": "Child - ModifySub01 - 00 - Modify Subscriber - Mapper4 - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 270,
+                "rot_tail_int": 270
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {
+                    "e698b809-0d30-4956-9b5c-9f167241c1f3_output0": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "{\"meta\":{\"external_id\":\"ORD0018653\",\"external_ref\":\"REQST0027667\",\"snow_catalog_item_request_id\":\"9eb05443ddd21200df5b89ccbe5226a9\",\"action\":\"Change\"},\"data\":{\"qagroup_name\":\"3905 SIP L\",\"new_values\":{\"hierarchy\":\"CA-HUIT\",\"user_details\":{\"ldap_user\":false,\"email_id\":\"\",\"user_name\":\"1230SFR_HUTTILA_Test\",\"first_name\":\"\",\"middle_name\":\"\",\"last_name\":\"1230SFR_HUTTILA_Test\",\"ldap_phone_number\":\"\",\"entitlement_profile\":\"Essential\",\"role\":\"CA-HUITSelfService\"},\"primary_line\":{\"phone_number\":\"16174159816\",\"css\":\"Cu14.CA-HUIT-Line-International-CSS\",\"cfw_to_voice_mail\":false},\"voice_mail\":false,\"devices\":[{\"index\":null,\"device_type\":\"Cisco 3905\",\"device_pool\":\"\",\"phone_name\":\"SEPAABBCCDDEEFF\",\"button_template\":\"3905 SIP L\",\"lines\":[{\"index\":0,\"line\":\"16174159816\",\"ringSetting\":\"Flash Only\",\"consecutiveRingSetting\":\"null\",\"mwlPolicy\":\"Light & Prompt\",\"audibleMwi\":\"Off\"}]}]},\"previous_values\":{\"hierarchy\":\"CA-HUIT\",\"user_details\":{\"ldap_user\":false,\"email_id\":\"\",\"user_name\":\"1230SFR_HUTTILA_Test\",\"first_name\":\"\",\"middle_name\":\"\",\"last_name\":\"1230SFR_HUTTILA_Test\",\"ldap_phone_number\":\"\",\"entitlement_profile\":\"Essential\",\"role\":\"\"},\"primary_line\":{\"phone_number\":\"16174159816\",\"css\":\"Cu14.CA-HUIT-Line-International-CSS\",\"cfw_to_voice_mail\":\"true\"},\"voice_mail\":true,\"devices\":[{\"index\":null,\"device_type\":\"Cisco 3905\",\"device_pool\":\"\",\"phone_name\":\"SEPAABBCCDDEEFF\",\"button_template\":\"3905 SIP L\",\"lines\":[{\"index\":0,\"line\":\"\",\"ringSetting\":\"null\",\"consecutiveRingSetting\":\"null\",\"mwlPolicy\":\"null\",\"audibleMwi\":\"null\"}]}]}}}"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "{\"meta\":{\"external_id\":\"ORD1234\",\"external_ref\":\"REQ4567\",\"snow_catalog_item_request_id\":\"d9e259486f15da40a54fa984be3ee440\",\"action\":\"Move/Change\"},\"data\":{\"qagroup_name\":\"8851\",\"new_values\":{\"hierarchy\":\"CA-HUIT\",\"user_details\":{\"ldap_user\":false,\"email_id\":\"SLTest0026@test.com\",\"user_name\":\"SLTest0026\",\"first_name\":\"SLTest\",\"middle_name\":\"Harvard\",\"last_name\":\"0026\",\"ldap_phone_number\":\"16175550194\",\"entitlement_profile\":\"Premium\",\"role\":\"CA-HUITSelfService\"},\"primary_line\":{\"phone_number\":\"16175550194\",\"css\":\"Cu1Si5-USADP-DBRDevice-CSS\",\"cfw_to_voice_mail\":false},\"voice_mail\":false,\"devices\":[{\"index\":1,\"device_type\":\"8851\",\"device_pool\":\"Cu14.CA-HUIT.1230SFR_DP\",\"phone_name\":\"SEPABAAAAAA0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"On\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"On\"}]},{\"index\":2,\"device_type\":\"8851\",\"device_pool\":\"Default\",\"phone_name\":\"SEPBBBBBBBB0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"}]},{\"index\":4,\"device_type\":\"8851\",\"device_pool\":\"Cu14.CA-HUIT.1230SFR_DP\",\"phone_name\":\"SEPDDDDDDDD0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"}]}]},\"previous_values\":{\"hierarchy\":\"CA-HUIT\",\"user_details\":{\"ldap_user\":false,\"email_id\":\"SLTest0026@test.com\",\"user_name\":\"SLTest0026\",\"first_name\":\"SLTest\",\"middle_name\":\"Harvard\",\"last_name\":\"0026\",\"ldap_phone_number\":\"16175550194\",\"entitlement_profile\":\"Premium\",\"role\":\"CA-HUITSelfService\"},\"primary_line\":{\"phone_number\":\"16175550194\",\"css\":\"Cu1Si5-USADP-Emer-CSS\",\"cfw_to_voice_mail\":false},\"voice_mail\":false,\"devices\":[{\"index\":1,\"device_type\":\"8851\",\"device_pool\":\"Cu14.CA-HUIT.1230SFR_DP\",\"phone_name\":\"SEPAAAAAAAA0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"}]},{\"index\":2,\"device_type\":\"8851\",\"device_pool\":\"Cu14.CA-HUIT.1230SFR_DP\",\"phone_name\":\"SEPBBBBBBBB0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"}]},{\"index\":3,\"device_type\":\"8851\",\"device_pool\":\"Cu14.CA-HUIT.1230SFR_DP\",\"phone_name\":\"SEPCCCCCCCC0026\",\"button_template\":\"Standard 7841 SIP\",\"lines\":[{\"index\":1,\"line\":\"16175550194\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"},{\"index\":2,\"line\":\"16175550076\",\"ringSetting\":\"Ring\",\"consecutiveRingSetting\":\"Ring Once\",\"mwlPolicy\":\"Light and Prompt\",\"audibleMwi\":\"Off\"}]}]}}}"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$forcedRollback"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "1"
+                                        },
+                                        "targetPath": {
+                                            "value": "$seq"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Original Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$"
+                                        },
+                                        "targetPath": {
+                                            "value": "$orig_copy"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "Child - ModifySub01 - 00 - Modify Subscriber"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "Child - ModifySub01 - 00 - Modify Subscriber"
+                            },
+                            "ref_id": {
+                                "value": "595dfc3166ef2703ec35e0b6"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "40f4df4b-06eb-4807-b090-7f5477e5d06a_input0": {
+                        "label": {
+                            "value": "Copy - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 200,
+                "output": {
+                    "129a9048-288c-49cd-b0bc-13f35ade0021_output0": {
+                        "label": {
+                            "value": "Script1 - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "e698b809-0d30-4956-9b5c-9f167241c1f3_output0": {
+                        "label": {
+                            "value": "Mapper4 - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-subpipeline",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "none"
+                    }
+                },
+                "info": {
+                    "author": {
+                        "value": "vbvellala@snaplogic.com"
+                    },
+                    "label": {
+                        "value": "Child - Rollback - ModifySub01 - All Rollback"
+                    },
+                    "notes": {
+                        "value": null
+                    },
+                    "pipe_ref": {
+                        "value": {
+                            "label": {
+                                "value": "Child - Rollback - ModifySub01 - All Rollback"
+                            },
+                            "ref_id": {
+                                "value": "595dfc3366ef2703ed360e95"
+                            }
+                        }
+                    },
+                    "pipeline_doc_uri": {
+                        "value": null
+                    },
+                    "purpose": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "b8841242-ccbf-44fb-b6f6-86728cb2e950_input0": {
+                        "label": {
+                            "value": "Copy - input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "instance_version": 192,
+                "output": {
+                    "860e0b42-d81c-4c9b-8b58-9606b0021eb3_output0": {
+                        "label": {
+                            "value": "Get Records for Rollback - output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "param_table": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}
