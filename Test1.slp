@@ -205,7 +205,19 @@
                 "account": {
                     "account_ref": {
                         "expression": false,
-                        "value": {}
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "test label"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarybasicauthaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
                     }
                 },
                 "error": {
